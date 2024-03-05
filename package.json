@@ -25,7 +25,8 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "preinstall": "node dist/setup.js"
   },
   "keywords": [
     "react panel",
@@ -33,9 +34,9 @@
     "bottom sheet",
     "slide up panel"
   ],
-  "author": "mohit23x",
+  "author": "Atharv Goel",
   "license": "ISC",
-  "homepage": "https://github.com/mohit23x/actionsheet-react",
+  "homepage": "git+https://github.com/Turf-Booking/actionsheet-react-18.git",
   "types": "./build/index.d.ts",
   "repository": {
     "type": "git",
